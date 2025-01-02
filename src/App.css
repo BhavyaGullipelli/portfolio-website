@@ -1,0 +1,92 @@
+/* General App styles */
+.App {
+  height: 100vh;
+  background-image: url('bg.jpg'); /* Background image in the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+.Content h1 {
+  padding: 50px;  /* Adds padding to all sides */
+  margin: 0;  /* Removes default margin */
+  text-align: left;  /* Centers the text */
+  color: white;  /* Text color */
+  font-size: 2rem;  /* Adjust font size */
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7); /* Optional text shadow for visibility */
+}
+.Content h3 {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;  /* Adds padding to all sides */
+  margin: 0;  /* Removes default margin */
+  text-align: left;  /* Centers the text */
+  color: white;  /* Text color */
+  font-size: 1rem;  /* Adjust font size */
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7); /* Optional text shadow for visibility */
+}
+
+/* Sidebar styles */
+.Sidebar {
+  position: absolute;
+  left: 0;
+ 
+  top: 0;
+  height: 100%;
+  width: 200px;
+  background-color: rgba(219, 151, 194, 0.26); /* Semi-transparent background */
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 100px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.Sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.Sidebar li {
+  margin: 20px 0;
+}
+
+.Sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.Sidebar a:hover {
+  color: #61dafb;
+}
+
+/* Main content styles */
+.Content {
+  margin-left: 200px; /* Space for the sidebar */
+  width: calc(100% - 200px);
+  padding: 20px;
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.resume-btn {
+ 
+  background-color: rgba(219, 151, 194, 0.26);  /* Button background color */
+  border: none;  /* Remove default border */
+  padding: 10px 20px ; 
+  font-size: 16px;  /* Font size */
+  color: white;  /* Text color */
+  cursor: pointer;  /* Change cursor on hover */
+  border-radius: 50px;  /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s;  /* Smooth transition */
+}
+
+.resume-btn:hover {
+  background-color: rgba(219, 151, 194, 0.4);  /* Darker shade on hover */
+  transform: scale(1.05);  /* Slight zoom effect */
+}

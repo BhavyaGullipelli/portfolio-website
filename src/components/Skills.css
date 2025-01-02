@@ -1,0 +1,29 @@
+.skills-container {
+    margin-left: 100px;
+    margin-top: -20px; /* Move the section slightly upwards */
+    width: calc(100% - 200px);
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+    text-align: left; /* Align text to the left */
+  }
+  
+  .skills-container h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: rgba(219, 151, 194, 1);
+  }
+  
+  .skills-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .skills-list li {
+    margin: 10px 0;
+    color: white;
+  }
+  

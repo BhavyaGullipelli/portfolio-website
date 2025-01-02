@@ -1,0 +1,22 @@
+.about-container {
+    margin-left: 100px;
+    margin-top: -20px; /* Move the section upwards */
+    width: calc(100% - 200px);
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  .about-container h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: left;
+    color: rgba(219, 151, 194, 1);
+  }
+  
+  .about-container p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
