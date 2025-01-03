@@ -14,7 +14,7 @@ const Home = () => {
       </p>
 
       {/* Resume Button */}
-      <a href="https://drive.google.com/file/d/1m6HGCWitJrfTLIJmJCbQYJyuNgoYJbuf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1_wQn5FBsc71qJcl5RREJfkD_W1dy1ACV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="resume-btn">Resume</button>
         </a>
     </div>

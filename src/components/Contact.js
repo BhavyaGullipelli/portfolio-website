@@ -21,7 +21,7 @@ const Contact = () => {
       <p>I'd love to hear from you! Feel free to reach out to me through any of the following ways:</p>
       <div className="contact-info">
         <p><strong>Email:</strong><a href="mailto:gullipellibhavyasri4@gmail.com"> gullipellibhavyasri4@gmail.com</a></p>
-        <p><strong>Phone:</strong> +91-9391782577</p>
+       
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gullipelli-bhavya-sri-330857289/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/gullipelli-bhavya-sri-330857289/</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/BhavyaGullipelli" target="_blank" rel="noopener noreferrer">https://github.com/BhavyaGullipelli</a></p>
         <p><strong>Location:</strong> Bhimavaram, Andhra Pradesh, India</p>
